@@ -125,7 +125,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<SwapATokens />} />
+    
       <Route path="/new-market-place" element={<NewMarketPlace />} />
       <Route path="/investor-profile" element={<InvestorProfile />} />
       <Route path="/farm-profile" element={<FarmProfile />} />
@@ -135,19 +135,14 @@ function App() {
       <Route path="/cart" element={<Cart />} />
       <Route path="/leaderboard" element={<LeaderBoard />} />
       <Route path="/mobile-app" element={<MobileApp />} />
-      <Route
-        path="/swap-a-tokens-with-popup"
-        element={<SwapATokensWithPopup />}
-      />
+      <Route path="/swap-a-tokens-with-popup" element={<SwapATokensWithPopup />}/>
       <Route path="/investor-wizard1" element={<InvestorWizard1 />} />
       <Route path="/investor-profile1" element={<InvestorProfile1 />} />
       <Route path="/creator-profile1" element={<CreatorProfile1 />} />
       <Route path="/farm-profile1" element={<FarmProfile1 />} />
       <Route path="/menu" element={<Menu />} />
-      <Route
-        path="/after-scrolling-the-title-will-appear-on-top"
-        element={<AfterScrollingTheTitleWill />}
-      />
+      <Route path="/after-scrolling-the-title-will-appear-on-top" element={<AfterScrollingTheTitleWill />} />
+      <Route path="/" element={<SwapATokens />} /> 
     </Routes>
   );
 }

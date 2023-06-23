@@ -15,8 +15,7 @@ const Test = memo(() => {
         height: 200px;
         object-fit: cover;
       `}
-      alt=""
-      src="/mask-group-197@2x.png"
+      
     />
   );
 });
