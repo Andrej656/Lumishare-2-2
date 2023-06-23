@@ -1,10 +1,10 @@
 import { memo, useState, useCallback } from "react";
 import ConnectWallet from "./ConnectWallet";
 import PortalPopup from "./PortalPopup";
-import SwapATokens from "F$9c8cd4ec-85e5-4bb0-ba50-dd7b47673225$";
 import SignUpModalStep1Choose from "./SignUpModalStep1Choose";
 import { css } from "@emotion/css";
 import { useNavigate } from "react-router-dom";
+import SwapATokens from "./SwapATokens";
 
 const NavigationBar = memo(() => {
   const [isConnectWalletOpen, setConnectWalletOpen] = useState(false);
