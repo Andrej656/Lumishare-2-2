@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 import ConnectWallet from "../components/ConnectWallet";
 import PortalPopup from "../components/PortalPopup";
-import SwapATokens from "./SwapATokens";
+import SwapATokens from "../components/SwapATokens";
 import SignUpModalStep1Choose from "../components/SignUpModalStep1Choose";
 import { useNavigate } from "react-router-dom";
 import { css } from "@emotion/css";
